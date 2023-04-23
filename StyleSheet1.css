@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: 'Trajan Pro 3 SemiBold';
     src: url('Trajan Pro 3 SemiBold.otf');
 }
@@ -82,7 +82,7 @@ header nav .logo {
 }
 
 .btn {
-    padding: 0.6rem 2rem;
+  
     font-size: 1rem;
     font-weight: 600;
     border: 2em solid transparent;
@@ -138,8 +138,7 @@ header nav .logo {
 .inner-header {
     height: 65vh;
     width: 100%;
-    margin: 0;
-    padding: 0;
+   
 }
 
 .flex { 
@@ -218,7 +217,7 @@ header nav .logo {
 }
 
 .gallery-wrapper {
-  padding: 2rem 7rem;
+ 
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(5, 1fr);
@@ -365,22 +364,16 @@ h2 {
   
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-}
+
 button {
     border: none;
     outline: 0;
     display: inline-block;
-    padding: 0.2em;
     background-color: rgba(117, 176, 156, 0.5);
     text-align: center;
     cursor: pointer;
     width: 100%;
+    padding: 0.2em;
     font-size: 1.7em;
     font-family: 'Times New Roman';
 }
@@ -391,8 +384,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
     background-color: rgba(180, 153, 255, 0.5);
 }
 
@@ -410,14 +401,14 @@ button {
         --white: rgb(250, 250, 250);
         --secondary: rgb(0, 59, 50);
         --bgLight: rgb(190, 181, 181);
-        margin-left: 2rem; 
+       
     }
 
         .heror .right h9 {
             font-size: 4rem;
             font-weight: 100;
             line-height: 1.2;
-            margin-bottom: 2rem;
+            
         }
 
             .heror .right h9 span {
@@ -426,7 +417,6 @@ button {
 
         .heror .right p {
             line-height: 1.9;
-            margin-bottom: 2rem;
             color:dimgrey;
         }
 .containerrr {
@@ -434,7 +424,7 @@ button {
     align-items: center;
     background-image: url('path/to/your/background-image.jpg');
     background-size: cover;
-    padding: 5em;
+   
 }
 
 .left-section {
@@ -446,17 +436,17 @@ button {
 
 .right-section {
     flex: 1;
-    padding: 0 5em;
+   
     background-color: #75B09C;
     font-size: 1.5em;
     color: black;
     font-family: 'Times New Roman';
-    margin-right: 1em;
+    
 }
 
 .left-section {
     flex: 1;
-    margin-right: 1em;
+    
 }
 .img_blok {
     display: flex;
@@ -474,7 +464,7 @@ button {
     justify-content: space-between;
     background-color: #75B09C;
     color: black;
-    padding: 2em;
+   
     font-family: 'Times New Roman';
 }
 
@@ -526,5 +516,8 @@ th, td {
     font-size: 1.7em;
     font-family: 'Times New Roman';
 }
+
+
+
 
 
