@@ -130,7 +130,7 @@ header nav .logo {
 .logo {
     width: 50px;
     fill: white;
-    padding-right: 50em;
+    padding-right: 5em;
     display: inline-block;
     vertical-align: middle;
 }
